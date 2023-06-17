@@ -7,7 +7,7 @@
 
 #### **2. Нарисовать архитектуру аналитического решения**
 --------------------------------------------
-![alt-текст](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module01/%D0%90%D0%90P.PNG "Архитектура аналитического решения")
+![alt-текст](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module01/%D0%90%D0%90P_.PNG "Архитектура аналитического решения")
 
 Ссылка на скачивание файла drawio [тут](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module01/DE%201.7.drawio)
 
