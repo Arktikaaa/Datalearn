@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-05-04T20:50:09.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="o_WZUbzlvCuab2T5RLqo" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2023-06-17T10:06:05.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.4.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="QkO0JmN6OVqqT15exj3e" version="21.4.0" type="device">
   <diagram name="Страница 1" id="37p3o2mmY32P-U59TKt1">
-    <mxGraphModel dx="2307" dy="877" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1690" dy="512" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,11 +128,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="idugW8RmlfMsUO6L2Yv1-78" value="Datawarehouses" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="idugW8RmlfMsUO6L2Yv1-78" value="Data Warehouse" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="354.5" y="290" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="idugW8RmlfMsUO6L2Yv1-85" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;rotation=-90;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="58" y="-29" width="698.5" height="821" as="geometry" />
+          <mxGeometry x="58" y="-30" width="698.5" height="821" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
