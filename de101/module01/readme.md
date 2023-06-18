@@ -14,7 +14,7 @@
 
 #### **3. Разработать дашборд в Excel**
 --------------------------------------------
-![alt-текст](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module01/%D0%94%D0%B0%D1%88%D0%B1%D0%BE%D1%80%D0%B4_Excel.PNG "Дашборд")
+![alt-текст]( "Дашборд")
 
 Сcылка на скачивание файла excel [тут](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module01/Sample%20-%20Superstore1.xlsx)
 
