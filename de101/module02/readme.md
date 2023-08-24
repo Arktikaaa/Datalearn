@@ -93,6 +93,13 @@ where r.order_id is null
 group by customer_id;
 ```
 
-###### Customer Ranking
-
 ###### Sales per region
+```sql
+select region, round(SUM(sales)) as sales
+from orders o 
+left join "returns" r on r.order_id = o.order_id 
+where r.order_id is null
+group by region;
+```
+
+###### Customer Ranking
