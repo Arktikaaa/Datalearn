@@ -21,62 +21,77 @@ where r.order_id is null;
 ```
 
 ###### Total Profit
+```sql
 select sum(profit) as Total_Profit
 from orders o 
 left join "returns" r on r.order_id = o.order_id 
 where r.order_id is null;
+```
 
 ###### Profit per Order
+```sql
 select o.order_id, SUM(profit)
 from orders o 
 left join "returns" r on r.order_id = o.order_id 
 where r.order_id is null
-group by o.order_id; 
+group by o.order_id;
+```
 
 ###### Sales per Customer 
+```sql
 select customer_id, SUM(sales)
 from orders o 
 left join "returns" r on r.order_id = o.order_id 
 where r.order_id is null
 group by customer_id;
-
+```
 
 ###### Avg_Discount
+```sql
 select round(AVG(discount) * 100,2) as Avg_Discount
 from orders o 
 left join "returns" r on r.order_id = o.order_id 
 where r.order_id is null
+```
 
 ###### Monthly Sales by Segment
+```sql
 select segment, date_part('year',order_date) as year, date_part('month',order_date) as month, round( SUM(sales),2) as SUM
 from orders o 
 left join "returns" r on r.order_id = o.order_id 
 where r.order_id is null
 group by segment, year, month
-order by segment, year, month
+order by segment, year, month;
+```
 
 ###### Monthly Sales by Product Category
+```sql
 select category, date_part('year',order_date) as year, date_part('month',order_date) as month, round( SUM(sales),2) as SUM
 from orders o 
 left join "returns" r on r.order_id = o.order_id 
 where r.order_id is null
 group by category, year, month
-order by category, year, month
+order by category, year, month;
+```
 
 ###### Sales by Product Category over time
+```sql
 select category, date_part('year',order_date) as year, round( SUM(sales),2) as SUM
 from orders o 
 left join "returns" r on r.order_id = o.order_id 
 where r.order_id is null
 group by category, year
-order by category, year
+order by category, year;
+```
 
 ###### Sales and Profit by Customer
+```sql
 select customer_id, round(SUM(sales)) as sales, round(sum(profit)) as profit
 from orders o 
 left join "returns" r on r.order_id = o.order_id 
 where r.order_id is null
-group by customer_id
+group by customer_id;
+```
 
 ###### Customer Ranking
 
