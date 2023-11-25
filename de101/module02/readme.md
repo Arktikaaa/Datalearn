@@ -108,16 +108,17 @@ group by region;
 
 #### **2.4 Модели Данных**
 1. Необходимо нарисовать модель данных для файла Superstore: концептуальную, логическую, физическую
->Концептуальная модель
+Концептуальная модель
 ![alt-текст]( https://github.com/Arktikaaa/Datalearn/blob/main/de101/module02/%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20Superstore.PNG "Концептуальная модель")
 
->Логическая модель
+Логическая модель
 ![alt-текст]( https://github.com/Arktikaaa/Datalearn/blob/main/de101/module02/%D0%9B%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20Superstore.PNG "Логическая модель")
 
->Физическая модель
+Физическая модель
 ![alt-текст](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module02/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20Superstore.PNG "Физическая модель")
 
-Запросы на создание и наполнение таблиц Dimensions и таблицы Sales Fact ([DDL+INSERT](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module02/SQL_DDL_model.sql)).
+2. Необходимо написать запросы на создание и наполнение таблиц Dimensions и таблицы Sales Fact.
+>Запросы созданы ([запросы DDL+INSERT](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module02/SQL_DDL_model.sql)).
 
 
 
