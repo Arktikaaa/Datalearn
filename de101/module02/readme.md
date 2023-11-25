@@ -107,13 +107,30 @@ group by region;
 
 
 #### **2.4 Модели Данных**
+1. Необходимо нарисовать модель данных для файла Superstore: концептуальную, логическую, физическую
+>Концептуальная модель
+![alt-текст]( https://github.com/Arktikaaa/Datalearn/blob/main/de101/module02/%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20Superstore.PNG "Концептуальная модель")
+
+>Логическая модель
+![alt-текст]( https://github.com/Arktikaaa/Datalearn/blob/main/de101/module02/%D0%9B%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20Superstore.PNG "Логическая модель")
+
+>Физическая модель
+![alt-текст](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module02/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20Superstore.PNG "Физическая модель")
+
+Запросы на создание и наполнение таблиц Dimensions и таблицы Sales Fact ([DDL+INSERT](https://github.com/Arktikaaa/Datalearn/blob/main/de101/module02/SQL_DDL_model.sql)).
+
+
+
+
+
 Практика
 
-    Вам необходимо нарисовать модель данных для нашего файлика Superstore:
+    Вам необходимо создать учетную запись в AWS. Это бесплатно. Если вы запускаете сервис в AWS, не забудьте его удалить, когда он не нужен, а то могут и денюшку списать.
+    Используя сервис AWS Lightsail или AWS RDS (смотрите инструкцию) создайте БД Postgres и активируйте Public access
+    Подключитесь к новой БД через SQL клиент (например DBeaver)
+    Загрузите данные из модуля 2.3 (Superstore dataset) в staging (схема БД stg) и загрузите dimensional model (схема dw). Вы можете использовать мой пример SQL для этого упражнения:
 
-    Концептуальную
-    Логическую
-    Физическую Вы можете использовать бесплатную версию SqlDBM или любой другой софт для создания моделей данных баз данных.
+    Staging stg.orders.sql
+    Business Layer from_stg_to_dw.sql
 
-    Когда вы нарисуете модель данных, вам нужно скопировать DDL и выполнить его в SQL клиенте.
-    Вам необходимо сделать INSERT INTO SQL, чтобы заполнить Dimensions таблицы и Sales Fact таблицу. Сначала мы заполняем Dimensions таблицы, где в качестве id мы генерим последовательность чисел, а зачем Sales Fact таблицу, в которую вставляем id из Dimensions таблиц. Такой пример я рассматривал в видео.
+    Попробуйте выполнить свои запросы из предыдущих упражнений. Не забудьте указать схему перед название таблицы. Например, public.orders или stg.orders.
